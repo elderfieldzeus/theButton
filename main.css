@@ -2,6 +2,7 @@
 
 body{
     display: block;
+    position: relative;
     color: white;
     background-color: black;
     font-family: 'Martian Mono', sans-serif;
@@ -13,13 +14,14 @@ body{
     display: flex;
     justify-content: center;
     margin-top: 1rem;
+    font-size: 100%;
 }
 
 .head {
     display: flex;
     font-weight: 1000;
-    font-size: 5rem;
-    margin-top: 5rem;
+    font-size: 500%;
+    margin-top: 3rem;
     justify-content: center;
 }
 
@@ -37,7 +39,7 @@ body{
 }
 
 #addButton img{
-    width: 30rem;
+    width: 50%;
 } 
 
 .count {
@@ -48,5 +50,6 @@ body{
 }
 
 .count p {
+    font-size: 100%;
     color: white;
 }

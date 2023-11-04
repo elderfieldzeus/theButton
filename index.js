@@ -4,6 +4,8 @@ let count = 0
 
 countButton.addEventListener("click", function(){
     count++
-    // countDisplay.remove()
     countDisplay.textContent = count
+    if(count % 100 === 0 && count !== 0){
+        alert("OKAY YOU CAN STOP NOW!")
+    }
 })
