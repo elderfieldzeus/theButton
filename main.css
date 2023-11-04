@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@300&family=Poppins:wght@300&display=swap');
+
+body{
+    display: block;
+    color: white;
+    background-color: black;
+    font-family: 'Martian Mono', sans-serif;
+    align-items: center;
+    justify-content: center;
+}
+
+.credits {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.head {
+    display: flex;
+    font-weight: 1000;
+    font-size: 5rem;
+    margin-top: 5rem;
+    justify-content: center;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.buttons #addButton {
+    cursor: pointer;
+    background: transparent;
+    text-decoration-color: none;
+    border: none;
+    border-radius: 1000;
+}
+
+#addButton img{
+    width: 30rem;
+} 
+
+.count {
+    margin-top: -3rem;
+    display: flex;
+    font-weight: 500;
+    justify-content: center;
+}
+
+.count p {
+    color: white;
+}
